@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-bg {
+    background-color: #12375C;
+}
+
+.nav-container {
+    height: 100px !important;
+}
+
+.main-container {
+    bottom: 0;
+    height: calc(100vh - 60px);
+}
+
+.menu-container {
+    background-color: #12375C;
+}
+
+.menu-icon {
+    font-size: 16px !important;
+    color: #24AAFF;
+}
+
+.menu {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.menu-item {
+    background-color: #12375C;
+    height: 50px;
+    font-size: 30px;
+}
+
+.top-card {
+    // background-color: #222222;
+    padding: 10px 0;
+    margin: -30px 10px 0 10px;
+}
+
+.pay-icon {
+    font-size: 25px !important;
+}
+
+.check-payment-btn {
+    height: 45px;
+}
+
+.medical-bg-menu {
+    border-bottom: 3px solid #24AAFF !important;
+}
+
+.lab-result-menu {
+    border-bottom: 3px solid #007ac5 !important;
+}
+
+.insurance-menu {
+    border-bottom: 3px solid #fcf81c !important;
+}
+
+.details-card {
+    min-height: 200px;
+}
+
+.message-body {
+    width: 600px;
+}
+
+.message-row {
+    // border: 1px solid grey;
+    border-radius: 20px;
+    background-color: rgb(245, 245, 245);
+}
+
+.hide-modal {
+    display: none;
+}
+
+.show-modal {
+    display: block;
+}
+
+.app-modal {
+    position: absolute;
+}
+
+.form-control {
+    border-radius: 0px !important;
+}
+
+.text-bold > * {
+    font-weight: bold;
+}
+
+.welcome-auth-container {
+    background-color: rgb(240, 240, 240);
+    // border: 1px solid #12375C;
+    border-radius: 20px;
+}
+
+.landing {
+    background-image: linear-gradient(to right, #12375C, #fff);
+}
+
+.emergency {
+    font-size: 30px;
+    background-color: #fff;
+    color: red;
+    transform: rotate(-20deg);
+
+    width: 250px;
+    border-radius: 100px;
+    border-color: red;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.emergency > button {
+    border: 1px solid red;
+    border-radius: 20px;
+    color: red;
+    font-size: 15px;
+    height: 40px;
+    align-self: center;
+}
+
+.emergency :nth-child(1) {
+    font-size: 70px;
+}
+
+.selected-menu {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.search {
+    width: 400px !important;
+}
+
+.number {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
